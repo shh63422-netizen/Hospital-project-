@@ -1,0 +1,14 @@
+{
+  "name": "hospital-meter-sync-server",
+  "version": "1.0.0",
+  "description": "Cloud sync backend for the Hospital Meter Manager Android app. Zero dependencies.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "author": "Tech Arslan Software Solutions 03200199895",
+  "license": "MIT"
+}
