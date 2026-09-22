@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: hospital-meter-sync
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: SYNC_TOKEN
+        generateValue: true
+      - key: DATA_DIR
+        value: /opt/render/project/src/data
